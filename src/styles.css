@@ -1,0 +1,77 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.message {
+  display: flex;
+  margin-right: 54px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 25px;
+  height: 25px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.right {
+  margin-left: 12px;
+}
+
+.username {
+  color: #333;
+  font-size: 13px;
+  user-select: text;
+}
+
+.contentButtonBlock {
+  display: flex;
+}
+
+.content {
+  display: inline-block;
+  color: #555;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 6px 8px;
+  border-radius: 8px;
+  border-top-left-radius: 0px;
+}
+
+.textMessage {
+  user-select: text;
+  word-break: break-word;
+}
+
+.image {
+  max-width: 500px;
+  max-height: 400px;
+}
+
+.selecteAble {
+  user-select: text;
+}
+
+.self {
+  flex-direction: row-reverse;
+  margin-right: 0px;
+  margin-left: 54px;
+}
+
+.self .right {
+  margin-right: 12px;
+}
+
+.self .username {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.system {
+  display: flex;
+  border: 1px solid #ccc;
+  justify-content: center;
+  align-items: center;
+}
